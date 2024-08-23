@@ -1,0 +1,48 @@
+/* class selector */
+.html{
+    color: red;
+    /* font-weight: 700; using class selector */
+}
+
+.css{
+    color:blue;
+}
+.js{
+    color:yellow;
+}
+.react{
+    color:skyblue;
+}
+.tw{
+    color: blueviolet;
+}
+/* class selector */ 
+
+ li{
+    font-weight: 700 ;
+    font-size: 32px;
+} 
+/* here ul p is the combinator selector
+   for ul tag, class is named as web =>.web p => this is descendant selector */
+   /* hover is pseudo selector */
+.web p:hover{
+    background-color: orange;
+    color: blue;
+}
+/* #html{
+    font-size: 25px;
+    /* using id selector */
+
+/* using attribute selector => ex:class in <li>
+here attribute can be of any type (can also be our name) */
+/* [class]
+{
+    /* background-color: rosybrown; */
+[sarvani]
+{
+    font-family: sans-serif;
+    color: teal;
+}
+h1:hover{
+    color: brown;
+}
